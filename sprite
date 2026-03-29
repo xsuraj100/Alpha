@@ -1,0 +1,7 @@
+import csv
+
+with open("data.csv", "a", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Ravi", 20, 88])
+
+print("Data appended to CSV")
